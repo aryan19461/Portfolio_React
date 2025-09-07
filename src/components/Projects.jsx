@@ -24,7 +24,7 @@ export default function Projects() {
       <SectionHeader
         kicker="Projects"
         title="Things I’ve Built"
-        sub="Browse by focus area — Data Set Analysis, Machine Learning, or Web Development."
+        sub=" Data Set Analysis, Machine Learning, or Web Development."
       />
 
       {/* Tabs with animated pill */}
