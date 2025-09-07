@@ -12,7 +12,7 @@ export default function Education() {
   ]
   return (
     <section id="education" className="scroll-mt-24 py-16 sm:py-20">
-      <SectionHeader kicker="Education" title="Modern Education" sub="A brief academic timeline." />
+      <SectionHeader kicker="Education" title="My Journey" sub="A brief academic timeline." />
       <motion.ol variants={stagger} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.3 }} className="relative space-y-4 border-l border-white/10 pl-6">
         {items.map((it, i) => (
           <motion.li key={i} variants={fadeUp} className="relative rounded-xl border border-white/10 bg-white/5 p-4">
