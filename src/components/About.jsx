@@ -7,7 +7,7 @@ export default function About() {
 
   return (
     <section id="about" className="scroll-mt-24 py-16 sm:py-20">
-      <SectionHeader kicker="About" title="Who I Am" />
+      <SectionHeader kicker="About" title="Professional Overview" />
       <motion.div variants={stagger} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.3 }} className="grid grid-cols-1 gap-6 md:grid-cols-2">
         <motion.div variants={fadeUp} className="rounded-2xl border border-white/10 bg-white/5 p-6">
           <p className="text-slate-300">
