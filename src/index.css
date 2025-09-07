@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth fonts on dark BG */
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
