@@ -9,6 +9,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import BackToTop from './components/BackToTop'
 import SectionDivider from './components/SectionDivider'
+import Publications from './components/Publications'
 
 export default function App() {
   const [active, setActive] = useState('home')
@@ -31,7 +32,7 @@ export default function App() {
   }, [])
 
   useEffect(() => {
-    const ids = ['home','about','education','projects','contact']
+    const ids = ['home','about','education','projects','publications','contact']
     const obs = new IntersectionObserver((entries) => {
       entries.forEach((entry) => { if (entry.isIntersecting) setActive(entry.target.id) })
     }, { rootMargin: '-40% 0px -55% 0px', threshold: 0.01 })
@@ -51,6 +52,8 @@ export default function App() {
         <Education />
         <SectionDivider />
         <Projects />
+        <SectionDivider />
+        <Publications/>
         <SectionDivider />
         <Contact />
       </main>

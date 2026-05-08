@@ -9,6 +9,7 @@ export default function Navbar({ active }) {
     { id: 'about', label: 'About' },
     { id: 'education', label: 'Education' },
     { id: 'projects', label: 'Projects' },
+    { id: 'publications', label: 'Research' },
     { id: 'contact', label: 'Contact' },
   ]
 
